@@ -124,7 +124,7 @@ public class MyView extends SurfaceView implements SurfaceHolder.Callback{
 	/**
 	 * 旋转动画
 	 * @param canvas
-	 * @param rota
+	 * @param rota 旋转贞
 	 * @param width
 	 * @param height
 	 * @param bitmap
@@ -145,14 +145,14 @@ public class MyView extends SurfaceView implements SurfaceHolder.Callback{
 	}
 	/**
 	 * 人物动画
-	 * @param canvas
-	 * @param bitmapMan
-	 * @param X
-	 * @param Y
-	 * @param W
-	 * @param H
-	 * @param frameMan
-	 * @param frame
+	 * @param canvas 画布
+	 * @param bitmapMan 人物图片
+	 * @param X 显示x轴上的位置
+	 * @param Y 显示y轴上的位置
+	 * @param W 人物宽
+	 * @param H 人物高
+	 * @param frameMan 人物多少个图片
+	 * @param frame 控制贞
 	 */
 	private void rawMan(Canvas canvas,Bitmap bitmapMan,int X,int Y,int W,int H,int[] frameMan,int frame){
 		Paint paint = new Paint();
